@@ -1,37 +1,53 @@
 body { 
-  background-color: #171829; 
+  background-color: #181a1c; 
 }
 
 p {
   color: white;
+  font-family: PixelCode;
 }
 
 h1 {
-  color: #1967DD;
+  color: #5f9fff;
+  font-family: PixelCode;
 }
 
 h2 {
-  color: #1967DD;
+  color: #5f9fff;
+  font-family: PixelCode;
 }
 
 h3 {
-  color: #1967DD;
+  color: #5f9fff;
+  font-family: PixelCode;
 }
 
 h4 {
-  color: #1967DD;
+  color: #5f9fff;
+  font-family: PixelCode;
 }
 
 h5 {
-  color: #1967DD;
+  color: #5f9fff;
+  font-family: PixelCode;
 }
 
 h6 {
-  color: #1967DD;
+  color: #5f9fff;
+  font-family: PixelCode;
 }
 
 .centered {
   top: 50%;
   left: 50%;
   margin: -50px 0 0 -50px;
+}
+
+@font-face {
+  font-family: PixelCode;
+  src: url(PixelCode.ttf);
+}
+
+div {
+  font-family: PixelCode;
 }
